@@ -1,6 +1,12 @@
 # chipper
 
-Cleans up a log directory leaving the most recent 3 log files. 
+Cleans up a log directory leaving the most recent log files. The user can specify the amount they wish to remove. eg:
+
+```sh
+chipper.sh 5
+``` 
+
+The above would remove all but the 5 most recent log files
 
 ## Included
 
